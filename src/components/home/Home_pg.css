@@ -1,0 +1,33 @@
+.home {
+    width: 100%;
+    border: 10px solid red;
+    min-height: 100vh;ma
+    background-image: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,20,0.7)), url("../../assets/backgroundImage.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBarText {
+    color: #378EE5;
+    color: #fff;
+    text-align: center;
+    max-width: 800px;
+    font-size: 29px;
+    font-weigth: bold;
+}
+
+.searchBarText input {
+    /* border: 0px solid grey; */
+    cursor: default;
+    opacity: 0.5;
+}
+
+.btn img {
+    margin: 0 0 0 7px;
+    width: 25px;
+    height: 25px;
+}
